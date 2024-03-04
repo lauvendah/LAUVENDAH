@@ -4,7 +4,7 @@
  * Control statements in JavaScript include conditional statements (like if, else, switch), loops (like for, while, do-while).
  */
 
-/**conditonal statements
+/**conditional statements
  * example  and syntax 
  *      ->if
  *          if(condition)
@@ -39,8 +39,30 @@
  *                  }
  * 
  * 
- *      ->switch
- */
+ *      ->switch -The switch statement is used to perform 
+ * different actions based on different 
+ * 
+ *          switch(){
+ *          case 1:
+ *           ->execution;
+ *           break;
+ * 
+ *          case 2:
+ *          ->execution;
+ *          break;
+ * 
+ *         case 3:
+ *          ->execution;
+ *          break;
+ * 
+ *        case n:
+ *          ->execution;
+ *          break;
+ * 
+ *        default
+ *        ->execution;
+ * }
+*/
 
 
 
@@ -74,9 +96,37 @@ if(x<=49)
 }
 else if(x==50)
 {
-    alert("my number is actualy equal to 50");
+    alert("my number is actually equal to 50");
 }
 else
 {
     alert( "i just have a number");
 }
+
+// switch statement example
+switch(day){
+    case 1:
+        dayname="Monday";
+        break;
+    case 2:
+        dayname="Tuesday";
+        break;
+    case 3:
+        dayname="Wednesday";
+        break; 
+    case 4:
+        dayname="Thursday";
+        break;
+    case 5:
+        dayname="Friday";
+        break;
+    case 6:
+        dayname="Saturday";
+        break;
+    case 7  :
+        dayname="Sunday";
+        break;
+    default:
+        dayname="invalid Day";
+}
+alert(dayname);
